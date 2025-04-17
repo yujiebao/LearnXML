@@ -1,0 +1,14 @@
+<?version = "1.0" encoding = "UTF-8"?>
+<Root>
+    <name>小华</name>
+    <age>18</age>
+    <Item id = "1" num = "10"></Item>
+    <Friend>
+        <name>小明</name>
+        <age>18</age>
+    </Friend>
+    <Friend>
+        <name>小红</name>
+        <age>18</age>
+    </Friend>
+</Root>

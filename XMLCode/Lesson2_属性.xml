@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!--属性和元素节点只是写法上的区别而已我们可以选择自己喜欢的方式来记录数据-->
+<PlayerInfo>
+	<Item name = "小明" age = "8"></Item>
+	
+	<!-- <a name = "ss" age = "61">
+	</a> 下面是简写-->
+	<a name = "ss" age = "61"/>
+
+</PlayerInfo>

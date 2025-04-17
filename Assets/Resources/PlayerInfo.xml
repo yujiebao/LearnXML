@@ -1,0 +1,42 @@
+<?version = "1.0" encoding = "UTF-8"?>
+<PlayerInfo>
+    <name>小华</name>
+    <atk>5</atk>
+    <def>10</def>
+    <moveSpeed>10.0</moveSpeed>
+    <rotateSpeed>1.5</rotateSpeed>
+    <Item>
+        <id>1</id>
+        <num>1</num>
+    </Item>
+    <ListInt num1 = "1" num2 = "2" num3 = "3" num4 = "4"/>
+    <ItemList>
+        <Item>
+            武器1
+            <id>1</id>
+            <num>1</num>
+        </Item>
+
+        <Item>
+            武器2
+            <id>2</id>
+            <num>2</num>
+        </Item>
+    </ItemList> 
+    <ItemDic>
+        <data>
+            <id>3</id>
+            <Item>
+                <id>3</id>
+                <num>1</num>
+            </Item>
+        </data>
+        <data>
+            <id>4</id>
+            <Item>
+                <id>4</id>
+                <num>2</num>
+            </Item>
+        </data>
+    </ItemDic>
+</PlayerInfo>
