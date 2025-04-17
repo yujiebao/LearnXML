@@ -22,9 +22,9 @@ public class Lesson4_P : MonoBehaviour
     void Start()
     {
         #region 知识点一 如何让Dictionary支持xml序列化和反序列化
-        //1.我们没办法修改c#自带的类
-        //2.那我们可以重写一个类 继承Dictionary  然后让这个类继承序列化拓展接口IXmlserializable
-        //3.实现里面的序列化和反序列化方法即可
+        // 1.我们没办法修改c#自带的类
+        // 2.那我们可以重写一个类 继承Dictionary  然后让这个类继承序列化拓展接口IXmlserializable
+        // 3.实现里面的序列化和反序列化方法即可
         #endregion   
 
         #region 让Dictionary支持序列化和反序列化

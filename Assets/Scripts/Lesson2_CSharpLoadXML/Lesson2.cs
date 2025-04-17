@@ -20,20 +20,20 @@ public class Lesson2 : MonoBehaviour
         //通过XmlDocument读取xml文件 有两个API
         //1.直接根据xml字符串内容 来加载xml文件
         //存放在Resorces文件夹下的xml文件加载处理
-        // TextAsset textAsset =  Resources.Load<TextAsset>("Test");
-        // print(textAsset.text);
+        TextAsset textAsset =  Resources.Load<TextAsset>("Test");
+        print(textAsset.text);
         //通过这个方法 就能够翻译字符串为xml对象
-        // xml.LoadXml(textAsset.text);
+        xml.LoadXml(textAsset.text);
 
         //通过xml文件的路径去进行加载
-        xml.Load(Application.streamingAssetsPath + "/Test.xml");
+        // xml.Load(Application.streamingAssetsPath + "/Test.xml");
         #endregion
 
         #region 知识点二 读取元素和属性信息
-        //节点信息类
-        //XmlNode 单个节点信息类
-        //节点列表信息
-        //XmlNodeList   多个节点信息类
+        // 节点信息类
+        // XmlNode 单个节点信息类
+        // 节点列表信息
+        // XmlNodeList   多个节点信息类
 
         //获取xml中的根节点
         XmlNode root = xml.SelectSingleNode("Root");

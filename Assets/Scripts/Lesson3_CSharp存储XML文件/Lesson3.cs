@@ -92,7 +92,7 @@ public class Lesson3 : MonoBehaviour
             speed.InnerText = "100";
             Root.AppendChild(speed);
 
-            //修改后要保存   上面知识修改了内存的
+            //修改后要保存   上面只是修改了内存的
             newxml.Save(path);             
         }
         #endregion      

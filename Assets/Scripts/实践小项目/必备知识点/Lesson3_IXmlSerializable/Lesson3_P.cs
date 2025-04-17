@@ -101,9 +101,9 @@ public class Lesson3_P : MonoBehaviour
     void Start()
     {
         #region 知识点一 IXmlSerializable是什么
-        //C#的XmlSerializer 提供了可拓展内容
-        //可以让一些不能被序列化和反序列化的特殊类能被处理
-        //让特殊类继承 IXmlSerializable 接口 实现其中的方法即可
+        // C#的XmlSerializer 提供了可拓展内容
+        // 可以让一些不能被序列化和反序列化的特殊类能被处理
+        // 让特殊类继承 IXmlSerializable 接口 实现其中的方法即可
         #endregion
 
         #region 知识点二 自定义类的实践

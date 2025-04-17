@@ -15,9 +15,9 @@ public class Lesson2_P : MonoBehaviour
         if(File.Exists(path))   //判断是否存在
         {
             #region 知识点二 反序列化  
-            //关键知识!=
-            //1.using和StreamReader
-            //2.Xmlserializer 的 Deserialize反序列化方法
+            // 关键知识!=
+            // 1.using和StreamReader
+            // 2.Xmlserializer 的 Deserialize反序列化方法
 
             //读取文件
             using (StreamReader sr = new StreamReader(path))
